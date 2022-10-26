@@ -1,0 +1,253 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  box-sizing: border-box;
+}
+.hero{
+  height: 100vh;
+  width: 100%;
+  background: url(../task3\ pb/ggs.png);
+  background-size: cover;
+  background-position: center;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 45px;
+  padding-right: 8%;
+  padding-left: 8%;
+}
+.logo{
+  color: white;
+  font-size: 35px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+span{
+  color: #f9004d;
+}
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 20px;
+}
+nav ul li a{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+nav ul li a:hover{
+  color: #f9004d;
+  transform: 4s;
+}
+.btn{
+  background-color: #f9004d;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 10px 25px;
+  border-radius: 30px;
+  transition: transform .4s;
+}
+.btn:hover{
+  transform: scale(1.2);
+}
+.content{
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%);
+}
+h1{
+  color: white;
+  margin: 10px 0px 10px;
+  font-size: 40px;
+}
+h3{
+  color: white;
+  font-size: 25px;
+  margin: 30px;
+}
+h4{
+  color: #fcfc;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+.newsletter form{
+  width: 330px;
+  max-width: 80%;
+  position: relative;
+}
+.newsletter form input:first-child{
+  display: inline-block;
+  width: 100%;
+  padding: 10px 100px 10px 11px;
+  border: solid #f9004d;
+  outline: none;
+  border-radius: 25px;
+}
+.newsletter form input:last-child{
+  position: absolute;
+  display: inline-block;
+  outline: none;
+  border: none;
+  padding: 8px 25px;
+  border-radius: 25px;
+  background-color: #f9004d;
+  color: white;
+  box-shadow: 0px 0px 5px #000, 0px 0px 10px #858585;
+  top: 5px;
+  right: 5px;
+}
+.about{
+  width: 100%;
+  padding: 100px 0px;
+  background-color: #191919;
+}
+.about img{
+  height: auto;
+  width: 400px;
+}
+.about-text{
+  width: 550px;
+}
+.main{
+  width: 1100;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.about-text h2{
+  color: white;
+  font-size: 70px;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+}
+.about-text h5{
+  color: white;
+  letter-spacing: 2px;
+  font-size: 20px;
+  margin-bottom: 22px;
+  text-transform: capitalize;
+}
+.about-text p{
+  color: #fcfc;
+  letter-spacing: 1px;
+  line-height: 25px;
+  font-size: 15px;
+  margin-bottom: 40px;
+}
+button{
+  background-color: #f9004d;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 10px 28px;
+  border-radius: 28px;
+  transition: .4s;
+}
+button:hover{
+  background-color: transparent;
+  border: 1px solid #f9004d;
+  cursor: pointer;
+}
+.skills{
+  background-color: #101010;
+  width: 100%;
+  padding: 100px;
+}
+.tittle h2{
+  color: white;
+  font-size: 75px;
+  width: 1000px;
+  margin: 28px;
+  text-align: center;
+  letter-spacing: 5px;
+}
+.box{
+  display: flex;
+  justify-content: center;
+  align-items:initial;
+  min-height: 385px;
+}
+.card{
+  height: 350px;
+  width: 350px;
+  padding: 18px 33px;
+  background: #191919;
+  border-radius: 18px;
+  margin: 13px;
+  position: relative;
+  overflow: hidden;
+  text-align:center;
+}
+.card i{
+  font-size: 45px;
+  display: block;
+  text-align: center;
+  margin: 20px opx;
+  color: #f9004d;
+}
+h5{
+  color: white;
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+}
+.pra p{
+  color: #fcfc;
+  font-size: 13px;
+  line-height: 18px;
+  margin-bottom: 18px;
+}
+.card .button{
+  background-color: #f9004d;
+  color: white;
+  text-decoration: none;
+  border: 1px solid transparent;
+  font-weight: bold;
+  padding: 5px 15px;
+  border-radius: 15px;
+  transition: .3s;
+}
+.card .button:hover{
+  background-color: transparent;
+  border: 1px solid #f9004d;
+  cursor: pointer;
+}
+.contact-me{
+  width: 100%;
+  height: 280px;
+  background: #191919;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact-me p{
+  color: #fcfc;
+  font-size: 25px;
+  margin-bottom: 18px;
+}
+h2{
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+}
+.contact-me .button-two{
+  background-color: #f9004d;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 10px 28px;
+  border-radius: 28px;
+  transition: .4s;
+}
